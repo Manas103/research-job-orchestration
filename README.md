@@ -195,17 +195,19 @@ inside WSL2 Ubuntu 22.04.
 | 30 simulated pipelines | 30 | **30** | yes |
 | 3 re-runs of one pinned manifest gave byte-identical outputs and identical final state | byte-identical | **3/3 runs identical**: 1 distinct final-state digest across all 3, every one of 2,400 task hashes identical across runs, on the first genuine attempt (`docs/determinism_benchmark_output.txt`) | yes |
 | 200/200 injected worker kills gave 0 duplicate side effects | 200/200, 0 duplicates | **200/200 real OS-level kills delivered, confirmed before commit in all 200; 0 duplicate side effects**, after 1 genuine attempt that found and fixed the inotify startup bug above (unrelated to this specific claim's own mechanism, which needed no retry) (`docs/worker_kill_benchmark_output.txt`) | yes |
-| The environment came up from Terraform and a GitHub Actions CI job in under 6 minutes | under 360s | **~29s** local (`terraform apply` plus polling `/health` to `200`, `docs/bringup_timing_output.txt`); GitHub Actions run duration reported separately below, since it is a second, independent environment (a CI runner, not this machine) | yes (both, see below) |
+| The environment came up from Terraform and a GitHub Actions CI job in under 6 minutes | under 360s | **~29s** local (`terraform apply` plus polling `/health` to `200`, `docs/bringup_timing_output.txt`) and **84s** on a real GitHub Actions run (`docs/ci_run_output.json`), each measured separately since they are two different environments (this machine vs. a GitHub-hosted runner) | yes (both) |
 
 GitHub Actions: `.github/workflows/ci.yml`'s `build-test-bringup` job runs the identical sequence
 (build, test, `terraform apply` against the runner's own Docker daemon, health-check, `terraform
-destroy`) on a GitHub-hosted runner. Its measured wall-clock duration is reported in
-`build_report.json` for this role, taken from `gh run view --json` against the actual run
-triggered by this repository's first push, not estimated from the steps above.
+destroy`) on a GitHub-hosted runner. The actual run triggered by this repository's first push
+([run 42384697377](https://github.com/Manas103/research-job-orchestration/actions/runs/42384697377))
+started at 15:05:54Z and completed at 15:07:18Z: **84 seconds**, success, `docs/ci_run_output.json`.
+Combined with the local bring-up above, both halves of the claim clear 360s by more than a 4x
+margin, not narrowly.
 
 Raw output: `docs/test_output.txt`, `docs/determinism_benchmark_output.txt`,
-`docs/worker_kill_benchmark_output.txt`, `docs/bringup_timing_output.txt`; the exact commands that
-produced them are below.
+`docs/worker_kill_benchmark_output.txt`, `docs/bringup_timing_output.txt`,
+`docs/ci_run_output.json`; the exact commands that produced them are below.
 
 ## Building and running
 
