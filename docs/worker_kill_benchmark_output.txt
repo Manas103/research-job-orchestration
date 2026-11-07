@@ -1,0 +1,1614 @@
+{
+  "summary": {
+    "claim": "200/200 injected worker kills gave 0 duplicate side effects",
+    "scenarios": 200,
+    "kills_delivered": 200,
+    "kills_confirmed_before_commit": 200,
+    "duplicate_side_effects": 0,
+    "all_tasks_completed": true,
+    "all_result_hashes_match_expected": true,
+    "meets_claim": true
+  },
+  "scenarios": [
+    {
+      "task_id": 0,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 2,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 3,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 4,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 5,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 6,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 7,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 8,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 9,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 80,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 81,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 82,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 83,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 84,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 85,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 86,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 87,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 88,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 89,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 160,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 161,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 162,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 163,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 164,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 165,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 166,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 167,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 168,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 169,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 240,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 241,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 242,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 243,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 244,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 245,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 246,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 247,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 248,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 249,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 320,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 321,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 322,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 323,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 324,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 325,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 326,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 327,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 328,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 329,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 400,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 401,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 402,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 403,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 404,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 405,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 406,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 407,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 408,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 409,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 480,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 481,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 482,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 483,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 484,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 485,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 486,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 487,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 488,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 489,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 560,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 561,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 562,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 563,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 564,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 565,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 566,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 567,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 568,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 569,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 640,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 641,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 642,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 643,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 644,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 645,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 646,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 647,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 648,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 649,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 720,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 721,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 722,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 723,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 724,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 725,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 726,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 727,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 728,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 729,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 800,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 801,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 802,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 803,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 804,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 805,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 806,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 807,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 808,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 809,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 880,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 881,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 882,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 883,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 884,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 885,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 886,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 887,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 888,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 889,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 960,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 961,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 962,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 963,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 964,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 965,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 966,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 967,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 968,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 969,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1040,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1041,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1042,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1043,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1044,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1045,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1046,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1047,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1048,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1049,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1120,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1121,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1122,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1123,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1124,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1125,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1126,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1127,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1128,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1129,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1200,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1201,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1202,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1203,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1204,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1205,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1206,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1207,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1208,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1209,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1280,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1281,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1282,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1283,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1284,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1285,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1286,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1287,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1288,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1289,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1360,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1361,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1362,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1363,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1364,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1365,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1366,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1367,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1368,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1369,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1440,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1441,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1442,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1443,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1444,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1445,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1446,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1447,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1448,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1449,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1520,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1521,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1522,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1523,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1524,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1525,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1526,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1527,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1528,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    },
+    {
+      "task_id": 1529,
+      "killed_before_commit_confirmed": true,
+      "side_effect_count": 1,
+      "duplicate": false,
+      "final_status": "Completed",
+      "result_hash_matches_expected": true
+    }
+  ]
+}

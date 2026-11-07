@@ -1,0 +1,19 @@
+{
+  "claim": "3 re-runs of one pinned manifest gave byte-identical outputs and identical final state",
+  "runs": 3,
+  "total_tasks": 2400,
+  "manifest_digest": "6C1557E33A5B7975FB58C37D1AA88757526F1F4ABD3EACADF31E0BE83E5EC77F",
+  "final_state_digests": [
+    "656C7274263A2DC8FABD286955014729DAD07AD630484574EB8562BA4AF2440F",
+    "656C7274263A2DC8FABD286955014729DAD07AD630484574EB8562BA4AF2440F",
+    "656C7274263A2DC8FABD286955014729DAD07AD630484574EB8562BA4AF2440F"
+  ],
+  "distinct_final_state_digests": 1,
+  "every_task_hash_identical_across_runs": true,
+  "meets_claim": true,
+  "run_seconds": [
+    6.3393803,
+    4.7635494,
+    4.1927549
+  ]
+}

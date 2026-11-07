@@ -1,0 +1,192 @@
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # docker_container.api will be created
+  + resource "docker_container" "api" {
+      + attach                                      = false
+      + bridge                                      = (known after apply)
+      + command                                     = (known after apply)
+      + container_logs                              = (known after apply)
+      + container_read_refresh_timeout_milliseconds = 15000
+      + entrypoint                                  = (known after apply)
+      + env                                         = [
+          + "DATABASE_URL=Host=research-orchestration-postgres;Port=5432;Username=orchestrator;Password=orchestrator;Database=orchestrator",
+        ]
+      + exit_code                                   = (known after apply)
+      + hostname                                    = (known after apply)
+      + id                                          = (known after apply)
+      + image                                       = (known after apply)
+      + init                                        = (known after apply)
+      + ipc_mode                                    = (known after apply)
+      + log_driver                                  = (known after apply)
+      + logs                                        = false
+      + memory_reservation                          = 0
+      + must_run                                    = true
+      + name                                        = "research-orchestration-api"
+      + network_data                                = (known after apply)
+      + network_mode                                = "bridge"
+      + read_only                                   = false
+      + remove_volumes                              = true
+      + restart                                     = "no"
+      + rm                                          = false
+      + runtime                                     = (known after apply)
+      + security_opts                               = (known after apply)
+      + shm_size                                    = (known after apply)
+      + start                                       = true
+      + stdin_open                                  = false
+      + stop_signal                                 = (known after apply)
+      + stop_timeout                                = (known after apply)
+      + tty                                         = false
+      + wait                                        = false
+      + wait_timeout                                = 60
+
+      + healthcheck (known after apply)
+
+      + labels (known after apply)
+
+      + networks_advanced {
+          + aliases      = []
+          + name         = "research-orchestration-net"
+            # (3 unchanged attributes hidden)
+        }
+
+      + ports {
+          + external = 18080
+          + internal = 8080
+          + ip       = "0.0.0.0"
+          + protocol = "tcp"
+        }
+    }
+
+  # docker_container.postgres will be created
+  + resource "docker_container" "postgres" {
+      + attach                                      = false
+      + bridge                                      = (known after apply)
+      + command                                     = (known after apply)
+      + container_logs                              = (known after apply)
+      + container_read_refresh_timeout_milliseconds = 15000
+      + entrypoint                                  = (known after apply)
+      + env                                         = [
+          + "POSTGRES_DB=orchestrator",
+          + "POSTGRES_PASSWORD=orchestrator",
+          + "POSTGRES_USER=orchestrator",
+        ]
+      + exit_code                                   = (known after apply)
+      + hostname                                    = (known after apply)
+      + id                                          = (known after apply)
+      + image                                       = (known after apply)
+      + init                                        = (known after apply)
+      + ipc_mode                                    = (known after apply)
+      + log_driver                                  = (known after apply)
+      + logs                                        = false
+      + memory_reservation                          = 0
+      + must_run                                    = true
+      + name                                        = "research-orchestration-postgres"
+      + network_data                                = (known after apply)
+      + network_mode                                = "bridge"
+      + read_only                                   = false
+      + remove_volumes                              = true
+      + restart                                     = "no"
+      + rm                                          = false
+      + runtime                                     = (known after apply)
+      + security_opts                               = (known after apply)
+      + shm_size                                    = (known after apply)
+      + start                                       = true
+      + stdin_open                                  = false
+      + stop_signal                                 = (known after apply)
+      + stop_timeout                                = (known after apply)
+      + tty                                         = false
+      + wait                                        = false
+      + wait_timeout                                = 60
+
+      + healthcheck {
+          + interval       = "2s"
+          + retries        = 15
+          + start_interval = "0s"
+          + start_period   = "0s"
+          + test           = [
+              + "CMD-SHELL",
+              + "pg_isready -U orchestrator",
+            ]
+          + timeout        = "2s"
+        }
+
+      + labels (known after apply)
+
+      + networks_advanced {
+          + aliases      = []
+          + name         = "research-orchestration-net"
+            # (3 unchanged attributes hidden)
+        }
+    }
+
+  # docker_image.api will be created
+  + resource "docker_image" "api" {
+      + id          = (known after apply)
+      + image_id    = (known after apply)
+      + name        = "research-orchestration-api:local"
+      + repo_digest = (known after apply)
+
+      + build {
+          + additional_contexts = []
+          + cache_from          = []
+          + cache_to            = []
+          + context             = ".."
+          + dockerfile          = "Dockerfile"
+          + extra_hosts         = []
+          + platform            = "linux/amd64"
+          + remove              = true
+          + security_opt        = []
+          + tag                 = []
+            # (12 unchanged attributes hidden)
+        }
+    }
+
+  # docker_image.postgres will be created
+  + resource "docker_image" "postgres" {
+      + id          = (known after apply)
+      + image_id    = (known after apply)
+      + name        = "postgres:16-alpine"
+      + repo_digest = (known after apply)
+    }
+
+  # docker_network.orchestration will be created
+  + resource "docker_network" "orchestration" {
+      + driver      = (known after apply)
+      + id          = (known after apply)
+      + internal    = (known after apply)
+      + ipam_driver = "default"
+      + name        = "research-orchestration-net"
+      + options     = (known after apply)
+      + scope       = (known after apply)
+
+      + ipam_config (known after apply)
+    }
+
+Plan: 5 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + api_url = "http://localhost:18080"
+docker_image.postgres: Creating...
+docker_network.orchestration: Creating...
+docker_image.api: Creating...
+docker_network.orchestration: Creation complete after 2s [id=62edacfb6d5c58b50deea70fa7b2e25a9623eafe5a4cca13813dda93f268bbbd]
+docker_image.postgres: Creation complete after 4s [id=sha256:aa6cb33cf4c19c765cefcf48d96176258800870a9a1e930ad126200f9d825139postgres:16-alpine]
+docker_container.postgres: Creating...
+docker_container.postgres: Creation complete after 0s [id=f469a7758d57c6798cf19f424155e73ac50de1a88a0a004172735de61c770f8f]
+docker_image.api: Still creating... [10s elapsed]
+docker_image.api: Still creating... [20s elapsed]
+docker_image.api: Creation complete after 25s [id=sha256:5fffb0e007ac249eddd4b9f5212eaa0df3c043a30c80564aa625e8cc1d6ddfb5research-orchestration-api:local]
+docker_container.api: Creating...
+docker_container.api: Creation complete after 0s [id=e3a0b36b34c6577ff935f1e36ff6d2a248211abfa93e048ae382507dc36ba099]
+
+Apply complete! Resources: 5 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+api_url = "http://localhost:18080"
+{"healthy": true, "elapsed_seconds": 29.183436210, "claim": "under 6 minutes (360s)", "meets_claim": true}

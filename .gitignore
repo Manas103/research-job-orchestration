@@ -1,0 +1,13 @@
+bin/
+obj/
+*.user
+.vs/
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Regenerate with: wsl.exe -d Ubuntu-22.04 -- bash -lc 'cd terraform && terraform init'
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*

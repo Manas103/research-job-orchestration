@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test-bringup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Restore
+        run: dotnet restore ResearchOrchestration.sln
+
+      - name: Build
+        run: dotnet build ResearchOrchestration.sln --no-restore -c Release
+
+      - name: Test
+        run: dotnet test tests/Orchestrator.Tests --no-build -c Release
+
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.9.8"
+
+      - name: Terraform init
+        working-directory: terraform
+        run: terraform init -no-color
+
+      - name: Terraform apply (builds the API image, stands up Postgres + the API container)
+        working-directory: terraform
+        run: terraform apply -auto-approve -no-color
+
+      - name: Wait for the API to report healthy
+        run: |
+          for i in $(seq 1 60); do
+            code=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:18080/health || true)
+            if [ "$code" = "200" ]; then
+              echo "healthy after ${i}s"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "API never became healthy"
+          exit 1
+
+      - name: Terraform destroy
+        if: always()
+        working-directory: terraform
+        run: terraform destroy -auto-approve -no-color
